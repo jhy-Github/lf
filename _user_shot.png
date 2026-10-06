@@ -1,0 +1,99 @@
+开源企业版高校版私有云模力方舟 AI 队友
+我的
+ 
+ 
+ 
+ 
+  
+【大赛通知】开源中国「2026北京开源行业解决方案创新赛」火热报名中，百万奖池等你的项目
+新建仓库
+在其他网站已经有仓库了吗？ 点击导入
+仓库名称 
+归属 
+ bub
+/
+路径 
+仓库地址：https://gitee.com/blorpbub/lf
+仓库介绍
+5/200
+开源 （所有人可见）
+私有 （仅仓库成员可见）
+初始化仓库 （设置语言、.gitignore、开源许可证）
+设置模板 （添加 Readme、Issue、Pull Request 模板文件）
+选择分支模型 （仓库创建后将根据所选模型创建分支）
+单分支模型 (只创建 master 分支)
+北京奥思研工智能科技有限公司版权所有
+Git 大全
+Git 命令学习
+CopyCat 代码克隆检测
+APP与插件下载
+ 
+Gitee 封面人物
+GVP 项目
+Gitee 博客
+Gitee 公益计划
+Gitee 持续集成
+ 
+OpenAPI
+MCP Server
+帮助文档
+在线自助服务
+更新日志
+ 
+关于我们
+加入我们
+使用条款
+意见建议
+合作伙伴
+ 
+
+技术交流QQ群
+
+ 
+
+微信服务号
+
+ client@oschina.cn
+ 企业版在线使用：400-606-0201
+专业版私有部署：
+赖经理 13058176526
+开放原子开源基金会
+合作代码托管平台
+违法和不良信息举报中心
+京ICP备2025119063号
+京公网安备11011502039387号
+ 简 体 / 繁 體 / English
+
+(function() {
+            // 该客户研发认为这个js文件影响网页插件进线
+            const ua = window.navigator.userAgent.toLowerCase();
+            if (/MicroMessenger/.test(ua) || /miniprogram/.test(ua)) {
+                const hm = document.createElement("script");
+                hm.async = true;
+                hm.src = "https://res.wx.qq.com/open/js/jweixin-1.6.0.js";
+                const s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            }
+        })();
+        window.onerror = function(message, source, lineno, colno, error) {
+            // 判断错误是否是 JS 文件加载失败引起的，并获取 URL，并重新加载该文件
+            if (typeof source === 'string' && source.includes(".js") && source.indexOf('udeskglobal')>-1) {
+                if(error){
+                    const script = document.createElement('script');
+                    const newSource=source.replace('static-ud.udeskglobal.com','static-ud.s5.udesk.cn');
+                    script.src = newSource;
+                    script.onerror = function() {
+                        console.log("JS 文件加载失败，URL：" + source);
+                    };
+                    document.head.appendChild(script);
+                }
+            }
+            return false;
+        };
+        (function() {
+            const ogUrl = document.querySelector('meta[property="og:url"]');
+            const staticUd="https://static-ud.s4.udesk.cn";
+            if (ogUrl && ogUrl.content ==='https://www.udesk.cn/' && staticUd.indexOf('udeskglobal')>-1) {
+                ogUrl.content = 'https://www.udeskglobal.com/';
+            }
+        })();

@@ -1,0 +1,97 @@
+开源企业版高校版私有云模力方舟 AI 队友
+我的
+ 
+ 
+ 
+ 
+  
+【大赛通知】开源中国「2026北京开源行业解决方案创新赛」火热报名中，百万奖池等你的项目
+ Watching 
+1
+ Star
+0
+bub
+/
+lf
+ 代码
+ Issues 0
+ Pull Requests 0
+ Wiki
+ 流水线
+ 服务 
+管理
+快速设置— 如果你知道该怎么操作，直接使用下面的地址
+HTTPS
+SSH
+ 
+
+我们强烈建议所有的git仓库都有一个README, LICENSE, .gitignore文件
+
+初始化 readme 文件
+
+Git入门？查看 帮助 , Visual Studio / TortoiseGit / Eclipse / Xcode 下如何连接本站, 如何导入仓库
+
+简易的命令行入门教程:
+
+Git 全局设置:
+
+git config --global user.name "bub"
+git config --global user.email "17658635+blorpbub@user.noreply.gitee.com"
+
+创建 git 仓库:
+
+mkdir lf
+cd lf
+git init 
+touch README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin https://gitee.com/blorpbub/lf.git
+git push -u origin "master"
+
+已有仓库?
+
+cd existing_git_repo
+git remote add origin https://gitee.com/blorpbub/lf.git
+git push -u origin "master"
+北京奥思研工智能科技有限公司版权所有
+Git 大全
+Git 命令学习
+CopyCat 代码克隆检测
+APP与插件下载
+ 
+Gitee 封面人物
+GVP 项目
+Gitee 博客
+Gitee 公益计划
+Gitee 持续集成
+ 
+OpenAPI
+MCP Server
+帮助文档
+在线自助服务
+更新日志
+ 
+关于我们
+加入我们
+使用条款
+意见建议
+合作伙伴
+ 
+
+技术交流QQ群
+
+ 
+
+微信服务号
+
+ client@oschina.cn
+ 企业版在线使用：400-606-0201
+专业版私有部署：
+赖经理 13058176526
+开放原子开源基金会
+合作代码托管平台
+违法和不良信息举报中心
+京ICP备2025119063号
+京公网安备11011502039387号
+ 简 体 / 繁 體 / English
